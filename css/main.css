@@ -1,0 +1,50 @@
+body {
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Mali', cursive;
+  background-image: linear-gradient(black, #000099, #66c2ff, #f7b9b9, #ffcccc);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/*MOBILE FIRST*/
+
+.main-title {
+  margin-bottom: 0;
+}
+
+.main-subtitle {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.section-image {
+  width: 30px;
+}
+
+/*Estilo para iPad e desktop - tudo o que quero que mude nesses dispositivos coloco aqui*/
+@media (min-width: 760px) {
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  .section-image {
+    width: 50px;
+  }
+
+  .welcome-section-content {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 260px;
+  }
+
+  .job-section-content {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+  }
+}
