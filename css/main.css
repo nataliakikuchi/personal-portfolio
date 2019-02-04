@@ -23,6 +23,64 @@ body {
   width: 30px;
 }
 
+/*MEUS TRABALHOS*/
+
+.alljobs-done {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.single-job {
+  /* flex: 1; */
+  padding: 20px;
+  margin: 20px 40px;
+  border: 8px solid whitesmoke;
+}
+
+button {
+  border-radius: 23px;
+  text-align: center;
+  font-family: 'Mali', cursive;
+  font-weight: 500;
+  font-size: 18px;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background-color: #66c2ff;
+}
+
+/*CONTATOS*/
+.contact-detail {
+  margin: auto;
+  text-align: center;
+}
+
+.single-contact {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #66c2ff;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+}
+
+.contact-text {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 /*Estilo para iPad e desktop - tudo o que quero que mude nesses dispositivos coloco aqui*/
 @media (min-width: 760px) {
 
@@ -47,4 +105,22 @@ body {
     margin: auto;
     margin-top: 70px;
   }
+
+  /*MEUS TRABALHOS*/
+  .alljobs-done {
+    margin: auto;
+    max-width: 900px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .single-job {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+
+  /*CONTATOS*/
+
 }
